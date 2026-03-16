@@ -35,7 +35,9 @@ $conversion  = [
 ];
 $cmax = -1; 
 for($i = 0; i<count($conversion); $i++ ){
-    if($conversión[i][3])
+    if($conversión[i][3]){
+
+    }
 }
 ?>
 <!DOCTYPE html>
@@ -101,6 +103,7 @@ for($i = 0; i<count($conversion); $i++ ){
                     <td><?= htmlspecialchars($con[0]) ?></td>
                     <td><?= htmlspecialchars($con[0]) ?></td>
                 </tr>
+                <?php endforeach; ?>
         </tbody>
     </table>
 
