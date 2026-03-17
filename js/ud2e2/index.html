@@ -1,12 +1,46 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mercadillo</title>
-</head>
-<body>
+  </head>
+  <body>
     <h1>Mercadillo</h1>
-    <script src="app.js"></script>
-</body>
+    <div class="contenedor"></div>
+    <div class="formulario">
+      <form action="">
+        <br />
+        <div>
+          <label for="nombre">Nombre</label>
+          <input type="text" name="nombre" id="nombre" />
+        </div>
+        <div>
+          <label for="cantidad">Cantidad</label>
+          <input type="text" name="cantidad" id="cantidad" />
+        </div>
+
+        <div>
+          <label for="categoria">Categoria</label>
+          <input type="text" name="categoria" id="categoria" />
+        </div>
+        <div>
+          <label for="precio">Precio</label>
+          <input type="text" name="precio" id="precio" />
+        </div>
+        <button type="button" class="agregar">Agregar</button>
+        <button type="button" class="eliminar">Eliminar</button>
+        <button type="button" class="buscar">Buscar</button>
+        <button type="button" class="actualizar">Actualizar</button>
+        <button type="button" class="ordenar">Ordenar</button>
+        <button type="button" class="actualizar">Actualizar</button>
+        <button type="button" class="imprimir">Imprimir</button>
+        <button type="button" class="filtrar">Filtrar</button>
+      </form>
+    </div>
+    <div class="salida">
+      <h1>Salida de datos:</h1>
+    </div>
+    <script src="app.js" defer></script>
+  </body>
 </html>
